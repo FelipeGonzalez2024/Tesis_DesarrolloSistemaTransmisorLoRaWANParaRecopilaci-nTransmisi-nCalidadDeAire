@@ -1,0 +1,7 @@
+El archivo AU915.bin contiene el firmware para hacer al nodo un transmisor.
+Previamente cargado el firmware, se puede ejecutar el archivo Inicilización_Transmisor.ino, quien contiene los comandos de inicialización del transmisor.
+El archivo Transmisor_LectorDHT11.ino contiene el código ejecutado para las pruebas hechas en esta tesis, pero no es útil para aplicaciones externas.
+El archivo Transmisor_LectorSerial.ino contiene el código capaz de leer un puerto serial, dividir sus variables mediante comas y enviar los datos en paquetes LoRaWAN.
+
+El código a ejecutar en cualquier prueba externa, sería Transmisor_LectorSerial.ino, ya que es quien realmente entrega flexibilidad al transmisor, con la única necesidad
+de recibir mensajes a su puerto serial y ordenados en formato "1.52,2.52,3.52,3.53,6.12,...", dando el orden y significado deseado a estos mensajes y variables.

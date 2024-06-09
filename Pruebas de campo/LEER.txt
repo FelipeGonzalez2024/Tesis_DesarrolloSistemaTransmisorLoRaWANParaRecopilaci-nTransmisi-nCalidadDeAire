@@ -1,0 +1,2 @@
+El archivo Analisis_Pruebas_Tesis.xlsx tiene todos los datos recopilados en las 3 pruebas de campo hechas,
+adicionalmente se añaden algunas formulas de promedio o desviación estandar.

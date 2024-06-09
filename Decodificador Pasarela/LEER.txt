@@ -1,0 +1,4 @@
+El archivo Decodificador_General.js contiene un decodificador general para la trama de mensajes que llegan desde el transmisor diseñado,
+entregando la mayor cantidad de información posible sobre el paquete.
+El archivo Decodificador_ThingsBoard.js contiene un decodificador hecho especificamente para aplicaciones en ThingsBoard, entregando
+solo la información más relevante del paquete.

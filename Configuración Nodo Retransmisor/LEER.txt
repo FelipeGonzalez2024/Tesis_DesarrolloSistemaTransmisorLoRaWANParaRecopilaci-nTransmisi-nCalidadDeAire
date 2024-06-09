@@ -1,0 +1,3 @@
+El archivo LA66_P2P_v1.2.bin contiene el firmware para hacer al nodo un retransmisor.
+Previamente cargado el firmware, se puede ejecutar el archivo Inicilización_Reransmisor.ino, quien contiene los comandos de inicialización del transmisor.
+Ya cargado el programa, tan solo se debe alimentar al dispositivo para que inicie sus tareas.
